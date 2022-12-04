@@ -12,7 +12,7 @@ for d in arts_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("Caine College of the Arts")
     full_resources["Department"].append(arts_departments[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -20,7 +20,7 @@ full_resources["Link"].append("https://cca.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("Caine College of the Arts")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 #this could be mined further
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -40,7 +40,7 @@ for d in ag_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(ag_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
     
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -48,28 +48,28 @@ full_resources["Link"].append("https://aste.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://caas.usu.edu/advs/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Agriculture and Applied Sciences")
 full_resources["Department"].append("Animal, Dairy and Veterinary Sciences")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://vetmed.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Veterinary Medicine")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://caas.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Agriculture and Applied Sciences")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=1&l=undergraduate")
@@ -87,7 +87,7 @@ for d in eng_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(eng_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -95,7 +95,7 @@ full_resources["Link"].append("https://engineering.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Engineering")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=4&l=undergraduate")
@@ -113,7 +113,7 @@ for d in hum_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(hum_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
     
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -121,7 +121,7 @@ full_resources["Link"].append("https://chass.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Humanities and Social Sciences")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=5&l=undergraduate")
@@ -140,7 +140,7 @@ for d in sc_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(sc_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -148,7 +148,7 @@ full_resources["Link"].append("https://www.usu.edu/science/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Science")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=6&l=undergraduate")
@@ -162,7 +162,7 @@ full_resources["Link"].append("https://vetmed.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Veterinary Medicine")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=27&l=undergraduate")
@@ -181,7 +181,7 @@ for d in ed_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(ed_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
     
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -189,21 +189,21 @@ full_resources["Link"].append("https://comdde.usu.edu/")
 full_resources["College"].append("College of Agriculture and Applied Sciences")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["Department"].append("Communicative Disorders and Deaf Education")
-full_resources["Category"].append("Department Information")    
+full_resources["Category"].append("General - Department Information")    
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://nursing.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Agriculture and Applied Sciences")
 full_resources["Department"].append("Nursing")
-full_resources["Category"].append("Department Information") 
+full_resources["Category"].append("General - Department Information") 
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://cehs.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Education and Human Services")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=3&l=undergraduate")
@@ -221,7 +221,7 @@ for d in bus_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(bus_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
     
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -229,7 +229,7 @@ full_resources["Link"].append("https://huntsman.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("Huntsman School of Business")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=2&l=undergraduate")
@@ -247,7 +247,7 @@ for d in nat_departments:
     full_resources["Resource Title"].append("College Specific Information")
     full_resources["College"].append("College of Agriculture and Applied Sciences")
     full_resources["Department"].append(nat_departments_full[i])
-    full_resources["Category"].append("Department Information")
+    full_resources["Category"].append("General - Department Information")
     i += 1
     
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
@@ -255,7 +255,7 @@ full_resources["Link"].append("https://qcnr.usu.edu/")
 full_resources["Resource Title"].append("College Specific Information")
 full_resources["College"].append("College of Natural Resources")
 full_resources["Department"].append("All")
-full_resources["Category"].append("College Information")
+full_resources["Category"].append("General - College Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/academics/colleges/")
 full_resources["Link"].append("https://www.usu.edu/degrees/index.cfm?browse&c=7&l=undergraduate")
@@ -280,7 +280,7 @@ full_resources["Link"].append("https://www.usu.edu/aggiewellness/shwc/")
 full_resources["Resource Title"].append("Find Resources")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("General Health") 
+full_resources["Category"].append("Other Health - All") 
 
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
 full_resources["Link"].append("https://www.usu.edu/aggiewellness/mental-health")
@@ -301,7 +301,7 @@ full_resources["Link"].append("https://www.usu.edu/aggiewellness/relationship-we
 full_resources["Resource Title"].append("Create Healthy Relationships")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Relationship Health")
+full_resources["Category"].append("Other Health - Relationship")
 
 #this would be a good resource if you needed help for a friend
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
@@ -309,21 +309,21 @@ full_resources["Link"].append("https://www.usu.edu/aggiewellness/help-others")
 full_resources["Resource Title"].append("Help Others in Distress")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Health of Others")
+full_resources["Category"].append("Other Health - All")
 
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
 full_resources["Link"].append("https://www.usu.edu/aggiewellness/tools")
 full_resources["Resource Title"].append("Access Preventative and Educational Tools")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("All Health")
+full_resources["Category"].append("Other Health - All")
 
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
 full_resources["Link"].append("https://www.usu.edu/aggiewellness/tools")
 full_resources["Resource Title"].append("Improve Your Mental Well-Being")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("All Health")
+full_resources["Category"].append("Other Health - All")
 
 full_resources["Main Page"].append("https://www.usu.edu/snac/")
 full_resources["Link"].append("https://www.usu.edu/snac/")
@@ -339,14 +339,14 @@ full_resources["Link"].append("https://www.usu.edu/dps/")
 full_resources["Resource Title"].append("Department of Public Safety")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("General Safety")
+full_resources["Category"].append("Safety - All")
 
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
 full_resources["Link"].append("https://www.usu.edu/dps/emergency/alerts")
 full_resources["Resource Title"].append("Aggie Alerts")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("General Safety")
+full_resources["Category"].append("Safety - All")
 
 #campus can jump start cars and unlock your car if you leave the keys in it
 #this is cool, would have to code a lot more things though
@@ -355,14 +355,14 @@ full_resources["Link"].append("https://www.usu.edu/dps/police")
 full_resources["Resource Title"].append("USU Police Department")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("General Safety and Services")
+full_resources["Category"].append("Safety and Services")
 
 full_resources["Main Page"].append("https://usu.edu/aggiewellness/")
 full_resources["Link"].append("https://www.usu.edu/student-conduct/")
 full_resources["Resource Title"].append("Office of Student Conduct and Community Standards")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("General Safety")
+full_resources["Category"].append("Safety - All")
 
 ############### Financial Resources ##################
 
@@ -371,14 +371,14 @@ full_resources["Link"].append("https://www.usu.edu/student-conduct/")
 full_resources["Resource Title"].append("Tuition and Payment")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Tuition Information")
+full_resources["Category"].append("Financial - Tuition Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://login.usu.edu/cas/login?service=https%3A%2F%2Fsecure.touchnet.com%3A443%2FC20241_tsa%2Fweb%2Fcaslogin.jsp")
 full_resources["Resource Title"].append("Online Tuition Payment")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Tuition Information")
+full_resources["Category"].append("Financial - Tuition Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/financial-support/federalaid")
@@ -415,49 +415,49 @@ full_resources["Link"].append("https://catalog.usu.edu/content.php?catoid=12&nav
 full_resources["Resource Title"].append("Academic & Registration Calendars")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Registration Information")
+full_resources["Category"].append("Academic - Registration Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/registrar/records/")
 full_resources["Resource Title"].append("Records - Who You Are on Paper")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Personal Information")
+full_resources["Category"].append("General - Personal Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/registrar/records/access/")
 full_resources["Resource Title"].append("Access Your Records")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Personal Information")
+full_resources["Category"].append("General - Personal Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/registrar/registration/resolving-holds")
 full_resources["Resource Title"].append("Resolving Holds")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Registration Problems")
+full_resources["Category"].append("Academic - Registration Problems")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/registrar/graduation/")
 full_resources["Resource Title"].append("Graduation")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Graduation Information")
+full_resources["Category"].append("Academic - Graduation Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/registrar/registration/")
 full_resources["Resource Title"].append("Registration - How to Register")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Registration Information")
+full_resources["Category"].append("Academic - Registration Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/advisors/")
 full_resources["Resource Title"].append("Find Your Advisor")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Academic Information & Registration Problems")
+full_resources["Category"].append("Academic Information & Academic - Registration Problems")
 
 ######################     USU Academic Resources     #######################
 
@@ -494,7 +494,7 @@ full_resources["Link"].append("https://www.usu.edu/commencement/")
 full_resources["Resource Title"].append("Commencement")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Graduation Information")
+full_resources["Category"].append("Academic - Graduation Information")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://research.usu.edu/")
@@ -560,7 +560,7 @@ full_resources["Link"].append("https://www.usu.edu/global-engagement/")
 full_resources["Resource Title"].append("Office of Global Engagement")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Diversity and Inclusion & Study Abroad")
+full_resources["Category"].append("Diversity and Inclusion")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/think-care-act/")
@@ -604,21 +604,21 @@ full_resources["Link"].append("https://www.usu.edu/involvement/fsl/index")
 full_resources["Resource Title"].append("Fraternity and Sorority Life")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Involvement & Social Wellness")
+full_resources["Category"].append("Involvement & Other Health - Social")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/involvement/hurd/")
 full_resources["Resource Title"].append("Utah State Hurd")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Involvement & Athletics")
+full_resources["Category"].append("Involvement & Physical Health - Athletics")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/involvement/spirit-squad/")
 full_resources["Resource Title"].append("The USU Spirit Squad")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Involvement & Athletics")
+full_resources["Category"].append("Involvement & Physical Health - Athletics")
 
 
 #################      Campus Life    ################
@@ -635,7 +635,7 @@ full_resources["Link"].append("https://utahstateaggies.com/")
 full_resources["Resource Title"].append("Aggies.com")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Athletics")
+full_resources["Category"].append("Physical Health - Athletics")
 
 #this link shows live how many people are in the gym and where
 #would be really fun to scrape it over a couple months and figure out when people go to the gym
@@ -644,21 +644,21 @@ full_resources["Link"].append("https://www.usu.edu/campusrec/")
 full_resources["Resource Title"].append("Campus Recreation")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("USU Living & Physical Wellness & Athletics")
+full_resources["Category"].append("USU Living & Physical Health - Athletics")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/campusrec/facilities/arc")
 full_resources["Resource Title"].append("Aggie Recreation Center (ARC)")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("USU Living & Physical Wellness")
+full_resources["Category"].append("USU Living & Physical Health")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://www.usu.edu/campusrec/outdoor/")
 full_resources["Resource Title"].append("Outdoor Programs")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("USU Living & Physical Wellness")
+full_resources["Category"].append("USU Living & Physical Health")
 
 full_resources["Main Page"].append("https://www.usu.edu/current-students/")
 full_resources["Link"].append("https://usustatesman.com/")
@@ -811,28 +811,28 @@ full_resources["Link"].append("https://www.usu.edu/housing/single/")
 full_resources["Resource Title"].append("Single Housing")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Housing Resources")
+full_resources["Category"].append("USU Living - Housing Resources")
 
 full_resources["Main Page"].append("https://www.usu.edu/housing/index")
 full_resources["Link"].append("https://www.usu.edu/housing/other/")
 full_resources["Resource Title"].append("Other Housing Resources")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Housing Resources")
+full_resources["Category"].append("USU Living - Housing Resources")
 
 full_resources["Main Page"].append("https://www.usu.edu/housing/index")
 full_resources["Link"].append("https://www.usu.edu/campus-life/living/")
 full_resources["Resource Title"].append("Living on Campus")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Housing Resources")
+full_resources["Category"].append("USU Living - Housing Resources")
 
 full_resources["Main Page"].append("https://www.usu.edu/housing/index")
 full_resources["Link"].append("https://www.usu.edu/housing/family/")
 full_resources["Resource Title"].append("Family Housing")
 full_resources["College"].append("All")
 full_resources["Department"].append("All")
-full_resources["Category"].append("Housing Resources")
+full_resources["Category"].append("USU Living - Housing Resources")
 
 ##################    Food Resources      #############
 
@@ -870,57 +870,35 @@ link_list = full_resources['Link']
 title_list = full_resources['Resource Title']
 
 # i = 0
-for c in college_list:
-    if c == 'Huntsman School of Business':
-        if 'Academic' in resource_list[i]:
-            print("College:", college_list[i], '\n', "Department:", department_list[i], '\n', "Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
-    elif c == 'All' and 'Academic' in resource_list[i]:
-        print("resource:", resource_list[i], "Link:", link_list[i])
-    i += 1
-    
-def search (college, department, resources):
-    if department == 64:
-        return ("Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
-    elif college == 8: 
-        return ("Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
-    elif college == 'All': 
-        if 'Academic' in resource_list:
-            return ("Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
+# for c in college_list:
+#     if c == 'Huntsman School of Business':
+#         if 'Academic' in resource_list[i]:
+#             print("College:", college_list[i], '\n', "Department:", department_list[i], '\n', "Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
+#     elif c == 'All' and 'Academic' in resource_list[i]:
+#         print("resource:", resource_list[i], "Link:", link_list[i])
+#     i += 1
 
-def search1 (college, department, resources):
-    if resources in resource_list: #this is going to have problems because some of the qualtrics resources are longer
-        if department in department_list: 
-            return ("Resource Type:", resource_list[i], '\n', "Resource Link:", link_list[i], '\n')
-        if college == 'Huntsman School of Business': 
-            return ("Resource Type:", resource_list[i], '\n', "Resource Link:", link_list[i], '\n')
-        if college_list == 'All': 
-            return ("Resource Type:", resource_list[i], '\n', "Resource Link:", link_list[i], '\n')
-            
-def search2 (college, department, resources):
+def search (college, department, resources):
     print_list1 = []
-    print_list2 = []
     i = 0
-    t = 0
     for r in title_list:
         if resources in resource_list[i]:
-            t += 1
             if department_list[i] == department: 
-                print_list1.append(resource_list[i])
-                print_list2.append(link_list[i])
-                college_list[i] == college:
-                    print_list1.append(resource_list[i])
-                print_list2.append(link_list[i])
-                t += 1
-            elif college == 'All':
-                print_list1.append(resource_list[i])
-                print_list2.append(link_list[i])
-                t += 1
+                st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                print_list1.append(st)
+                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
+            if college_list[i] == college:
+                st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                print_list1.append(st)
+                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
+            if college_list[i] == 'All':
+                st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                print_list1.append(st)
+                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
         i += 1
-    return t
+    return print_list1
 
-
-
-print(search2('Huntsman School of Business', 'Economics and Finance', 'Academic'))
+print(search('Huntsman School of Business', 'Finance and Economics', 'Academic'))
 
     
 # college = 'Q5'
