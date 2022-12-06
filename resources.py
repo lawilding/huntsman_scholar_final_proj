@@ -879,26 +879,29 @@ title_list = full_resources['Resource Title']
 #     i += 1
 
 def search (college, department, resources):
-    print_list1 = []
+    print_list = []
     i = 0
     for r in title_list:
         if resources in resource_list[i]:
             if department_list[i] == department: 
                 st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-                print_list1.append(st)
-                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
+                print_list.append(st)
             if college_list[i] == college:
                 st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-                print_list1.append(st)
-                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
+                print_list.append(st)
             if college_list[i] == 'All':
                 st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-                print_list1.append(st)
-                # print_list1.append(college_list[i] + department_list[i] + title_list[i] + resource_list[i] + link_list[i])
+                print_list.append(st)
         i += 1
-    return print_list1
+    with open(r'/home/ubuntu/environment/huntsman_scholar_final_proj/results.txt', 'w') as fp:
+        for p in print_list:
+            # write each item on a new line
+            fp.write("%s\n" % p)
+        print('Done')
 
-print(search('Huntsman School of Business', 'Finance and Economics', 'Academic'))
+    return print_list
+
+print(search('Caine College of the Arts', 'Art', 'Physical'))
 
     
 # college = 'Q5'
