@@ -869,15 +869,6 @@ resource_list = full_resources['Category']
 link_list = full_resources['Link']
 title_list = full_resources['Resource Title']
 
-# i = 0
-# for c in college_list:
-#     if c == 'Huntsman School of Business':
-#         if 'Academic' in resource_list[i]:
-#             print("College:", college_list[i], '\n', "Department:", department_list[i], '\n', "Resource Type:", resource_list[i], "Resource Link:", link_list[i], '\n')
-#     elif c == 'All' and 'Academic' in resource_list[i]:
-#         print("resource:", resource_list[i], "Link:", link_list[i])
-#     i += 1
-
 def search (college, department, resources):
     print_list = []
     i = 0
@@ -893,6 +884,8 @@ def search (college, department, resources):
                 st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
                 print_list.append(st)
         i += 1
+    
+    #make the list easier to format
     with open(r'/home/ubuntu/environment/huntsman_scholar_final_proj/results.txt', 'w') as fp:
         for p in print_list:
             # write each item on a new line
@@ -901,9 +894,59 @@ def search (college, department, resources):
 
     return print_list
 
-print(search('Caine College of the Arts', 'Art', 'Physical'))
+# print(search('Caine College of the Arts', 'Art', 'Academic'))
 
     
-# college = 'Q5'
-# department = 'Q4'
-# resources = 'Q6'
+def search2 (college, department, resources1, resources2, resources3): #, resources3, resources4, resources5):
+    print_list = []
+    i = 0
+    j = 0
+    answers = []
+    answers = [resources1, resources2, resources3]
+    for r in title_list:
+        for a in answers: 
+            if answers[j] in resource_list[i]:
+                if department_list[i] == department: 
+                    st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                    print_list.append(st)
+                if college_list[i] == college:
+                    st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                    print_list.append(st)
+                if college_list[i] == 'All':
+                    st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+                    print_list.append(st)
+        i += 1
+    j += 1
+        
+        # if resources2 in resource_list[i]:
+        #     if department_list[i] == department: 
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+        #     if college_list[i] == college:
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+        #     if college_list[i] == 'All':
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+                
+        # if resources3 in resource_list[i]:
+        #     if department_list[i] == department: 
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+        #     if college_list[i] == college:
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+        #     if college_list[i] == 'All':
+        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
+        #         print_list.append(st)
+    
+    #make the list easier to format
+    with open(r'/home/ubuntu/environment/huntsman_scholar_final_proj/results.txt', 'w') as fp:
+        for p in print_list:
+            # write each item on a new line
+            fp.write("%s\n" % p)
+        # print('Done')
+
+    return print_list
+    
+print(search2('Huntsman School of Business', 'Economics and Finance','Academic', 'NA', 'NA'))
