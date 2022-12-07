@@ -897,12 +897,12 @@ def search (college, department, resources):
 # print(search('Caine College of the Arts', 'Art', 'Academic'))
 
     
-def search2 (college, department, resources1, resources2, resources3): #, resources3, resources4, resources5):
+def search2 (college, department, resources1, resources2, resources3, resources4, resources5, resources6, resources7, resources8, resources9, resources10, resources11, resources12, resources13, resources14, resources15, resources16): #, resources3, resources4, resources5):
     print_list = []
     i = 0
     j = 0
     answers = []
-    answers = [resources1, resources2, resources3]
+    answers = [resources1, resources2, resources3, resources4, resources5, resources6, resources7, resources8, resources9, resources10, resources11, resources12, resources13, resources14, resources15, resources16]
     for r in title_list:
         for a in answers: 
             if answers[j] in resource_list[i]:
@@ -917,28 +917,6 @@ def search2 (college, department, resources1, resources2, resources3): #, resour
                     print_list.append(st)
         i += 1
     j += 1
-        
-        # if resources2 in resource_list[i]:
-        #     if department_list[i] == department: 
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
-        #     if college_list[i] == college:
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
-        #     if college_list[i] == 'All':
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
-                
-        # if resources3 in resource_list[i]:
-        #     if department_list[i] == department: 
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
-        #     if college_list[i] == college:
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
-        #     if college_list[i] == 'All':
-        #         st = "College: " + college_list[i] + ', ' + "Department: " + department_list[i] + ', ' + "Resource Title: " + title_list[i] + ', ' + "Resource Type: " + resource_list[i] + ', ' + "Resource Link: " + link_list[i]
-        #         print_list.append(st)
     
     #make the list easier to format
     with open(r'/home/ubuntu/environment/huntsman_scholar_final_proj/results.txt', 'w') as fp:
@@ -949,4 +927,4 @@ def search2 (college, department, resources1, resources2, resources3): #, resour
 
     return print_list
     
-print(search2('Huntsman School of Business', 'Economics and Finance','Academic', 'NA', 'NA'))
+# print(search2('Huntsman School of Business', 'Economics and Finance','Academic', 'NA', 'NA'))
