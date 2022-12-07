@@ -58,6 +58,8 @@ print(data)
 
 data.to_csv('/home/ubuntu/environment/huntsman_scholar_final_proj/Results/Resource_Needs_Edit.csv')
 
+print('Data Cleaned and Written to File.')
+
 # Setting up the library.
 full_resources = {"Main Page": [], "Link": [], "Resource Title": [], "College": [], "Department": [], "Category": []}
 
@@ -988,6 +990,8 @@ def search2 (college, department, resources1, resources2, resources3, resources4
 
     return print_list
     
+print('Text File Created.')
+    
 # print(search2('Huntsman School of Business', 'Economics and Finance','Academic', 'NA', 'NA'))
 
 
@@ -1004,8 +1008,8 @@ s.starttls()
 s.login("usu.resource@gmail.com", "slphpctqfnnzlfph")
 
 # Setting variables for sending email.
-first_name = '"'+ data['Q1'].tail(1) + '"'
-receiver_email = '"' + data['Q3'].tail(1) + '"'
+first_name = str(data.at[data.index[-1],'Q1'])
+receiver_email = str(data.at[data.index[-1],'Q3'])
 
 # message to be sent
 message = '''Thank you for reaching out to ask about the USU resources available to you, '''+ first_name + '''. Your results are below. \n\n
@@ -1019,6 +1023,3 @@ s.sendmail("usu.resource@gmail.com", receiver_email, message)
 print('Email Sent.')
 # terminating the session
 s.quit()
-
-first_name = data['Q1'].tail(1)
-receiver_email = data['Q3'].tail(1)
